@@ -1,0 +1,612 @@
+[main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@748ac6f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Admin@123
+  [main] INFO  serviceImpl.loginsectionImpl  - Logged in as a Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab35b9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@748ac6f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@748ac6f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Satyam
+  [main] INFO  serviceImpl.loginsectionImpl  - Logged in as a Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@748ac6f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1451, SQLState: 23000
+  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Cannot delete or update a parent row: a foreign key constraint fails (`hms`.`patient`, CONSTRAINT `FK7uc2xa2lgvlt6cvqbj17lmomy` FOREIGN KEY (`doctor_id`) REFERENCES `user` (`id`))
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1451, SQLState: 23000
+  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Cannot delete or update a parent row: a foreign key constraint fails (`hms`.`patient`, CONSTRAINT `FK7uc2xa2lgvlt6cvqbj17lmomy` FOREIGN KEY (`doctor_id`) REFERENCES `user` (`id`))
+  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1451, SQLState: 23000
+  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Cannot delete or update a parent row: a foreign key constraint fails (`hms`.`patient`, CONSTRAINT `FK7uc2xa2lgvlt6cvqbj17lmomy` FOREIGN KEY (`doctor_id`) REFERENCES `user` (`id`))
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1451, SQLState: 23000
+  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Cannot delete or update a parent row: a foreign key constraint fails (`hms`.`patient`, CONSTRAINT `FK7uc2xa2lgvlt6cvqbj17lmomy` FOREIGN KEY (`doctor_id`) REFERENCES `user` (`id`))
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1451, SQLState: 23000
+  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Cannot delete or update a parent row: a foreign key constraint fails (`hms`.`patient`, CONSTRAINT `FK7uc2xa2lgvlt6cvqbj17lmomy` FOREIGN KEY (`doctor_id`) REFERENCES `user` (`id`))
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@748ac6f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Satyam Choudhary
+  [main] INFO  serviceImpl.loginsectionImpl  - Logged in as a Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter First Name:
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Last Name:
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Mobile Number
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter User Id
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Password
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Email
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Blood Group
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Gender (Male/Female/Other)
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Date Of Birth (dd/mm/yyyy)
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Age
+  [main] INFO  serviceImpl.adminDashboardImpl  - Specialization
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Qualification
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Joining Date (dd/mm/yyyy)
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter City
+  [main] INFO  serviceImpl.adminDashboardImpl  - Enter Address
+  [main] INFO  serviceImpl.adminDashboardImpl  - Doctor Created SuccessFully
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15d0d6c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@67536ae0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Satyam Choudhary
+  [main] INFO  serviceImpl.loginsectionImpl  - Logged in as a Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+S.No.		Name			EmailId			Mobile No.		Specialization		City		Address
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+1		Swayam Jugran		null		7467787889		null		null		null
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+2		Raj Dadlani		rajdad@gmail.com		8787878787		null		Faridabad		
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+3		Sahil Ahuja		sahilbhai@gmail.com		8767675687		Dermatologist		Lakhnau		UttarPradesh
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+S.No.		Name			EmailId			Mobile No.		Qualification		City		Address
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+1		Aradhya Pandit		Aradhya@gmail.com		6778987856		BBA		Faridabad		b/227 Dheeraj Nagar Aimadpur Faridabad Haryana-121003
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+S.No.		Patient Id	|	Name		|	EmailId		|	Mobile No.		|	Doctor Name		|	Appointment Date & Time		|	City		|	Address
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+1		2	|	Raj Dudeja	|	Kuchhtohai@gmail.com		|	6778678978		|	Swayam Jugran		|	10/10/2022 10:15		|	Faridabad		|	Dheeraj Nagar
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+2		4	|	Kabir Kuereja	|	KukrejaRaj@gmail.com		|	6778987867		|	Raj Dadlani		|	15/06/2022 09:03		|	Madhubani		|	Basuki Bihari Near Saharghat Bihar
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@67536ae0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Satyam Choudhary
+  [main] INFO  serviceImpl.loginsectionImpl  - Logged in as a Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+S.No.		Patient Id	|	Name		|	EmailId		|	Mobile No.		|	Doctor Name		|	Appointment Date & Time		|	City		|	Address
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+1		2	|	Raj Dudeja	|	Kuchhtohai@gmail.com		|	6778678978		|	Swayam Jugran		|	10/10/2022 10:15		|	Faridabad		|	Dheeraj Nagar
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+2		4	|	Kabir Kuereja	|	KukrejaRaj@gmail.com		|	6778987867		|	Raj Dadlani		|	15/06/2022 09:03		|	Madhubani		|	Basuki Bihari Near Saharghat Bihar
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+S.No.		Name			EmailId			Mobile No.		Specialization		City		Address
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+1		Swayam Jugran		null		7467787889		null		null		null
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+2		Raj Dadlani		rajdad@gmail.com		8787878787		null		Faridabad		
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+3		Sahil Ahuja		sahilbhai@gmail.com		8767675687		Dermatologist		Lakhnau		UttarPradesh
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@67536ae0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Satyam Choudhary
+  [main] INFO  serviceImpl.loginsectionImpl  - Logged in as a Admin
+  [main] INFO  serviceImpl.adminDashboardImpl  - 
+	Press 1 For Add Doctor			Press 2 For View Doctor
+	Press 3 For Add Receptionist		Press 4 For View Receptionist
+	Press 5 For Add Patient			Press 6 For View Patients
+	Press 7 For Edit Doctor			Press 8 For Edit Patient
+	Press 9 For Edit Receptionist		Press 10 For Delete Doctor
+	Press 11 For Delete Patient		Press 12 For Delete Receptionist
+	Press 13 For Edit Profile		Press 14 For LogoutFrom Admin
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Swayam Jugran
+  [main] INFO  serviceImpl.loginsectionImpl  - Looged in as a Doctor
+  [main] INFO  serviceImpl.doctorDashboardImpl  - 				---------------------WELCOME TO DOCTOR DASHBOARD-------------------------
+  [main] INFO  serviceImpl.doctorDashboardImpl  - 
+	Press 1 For View Patients			Press 2 For View Profile			Press 3 For LogoutFrom Doctor
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] INFO  com.project.HospitalManagementSystem.App  - 					---------WELCOME TO HOSPITAL MANAGMENT SYSTEM----------
+  [main] INFO  com.project.HospitalManagementSystem.App  - 
+PRESS 1. For Login as a Admin
+PRESS 2. For Login as a Doctor
+PRESS 3. For Login as a Receptionist
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter username:
+  [main] INFO  serviceImpl.loginsectionImpl  - Enter Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hms]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@67536ae0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  serviceImpl.loginsectionImpl  - Hello Aradhya Pandit
+  [main] INFO  serviceImpl.loginsectionImpl  - Logged in as a Receptionist
+  [main] INFO  serviceImpl.receptionistDashboardImpl  - 				---------------------WELCOME TO RECEPTIONIST DASHBOARD-------------------------
+  [main] INFO  serviceImpl.receptionistDashboardImpl  - 
+	Press 1 For Add Patient			Press 2 For View Patients
+	Press 3 For Edit/Update Patient		Press 4 For Delete Patient
+	Press 5 For LogoutFrom Receptionist
+  
